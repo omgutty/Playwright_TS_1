@@ -1,0 +1,60 @@
+let ar=[10,20,30,40,50,60,70,80,90];
+console.log(ar);
+let d=ar.slice(-4);
+console.log(d);
+
+let d1=ar.slice(2,5);
+console.log(d1);
+
+let d2=ar.slice(5,2);
+console.log(d2);
+
+
+
+console.log("-----------");
+
+//splice 
+
+
+//remove
+let nummber = [10,20,30,40,50,60];
+let a=nummber.splice(2,3);
+console.log(nummber);
+
+
+let n1= [10, "siva",20,"Tan",30,true,88.8];
+
+
+n1.splice(2,1);
+console.log(n1);
+
+
+console.log("-----------"); 
+
+
+let n2 = [10,20,30,40,50,60];
+let n3 =n2.splice(2,0,100);
+console.log(n2);
+console.log(n3);
+
+
+//replace 
+let n4= [10,20,30,40,50,60];
+let n5=n4.splice(2,1,0);
+console.log(n4);
+console.log(n5);
+
+
+
+//swipe 
+
+let n6= [10,20,30,40,50];
+
+let n7=n6.splice(3,2,50,40);
+
+console.log(n6);
+console.log(n7);
+
+
+
+
