@@ -179,3 +179,10 @@ console.log(u3);  // ?
 u2.name = 'ravi';
 
 console.log(u1.name); 
+
+
+let fruit2=["Apple","Banana","Cherry","Mangor","Orange"];
+
+let removed2=fruit2.splice(-2,2);
+console.log(removed2);
+console.log(fruit2);
