@@ -83,7 +83,7 @@ const add6= (a,b)=>{
 };
 console.log(add6(5,5));
 
-//correct 
+//correct arrow function with two parameter
 const add7= (a,b)=> a+b;
 console.log(add7(7,7));
 
@@ -92,6 +92,29 @@ const add8 = (a,b)=>{
     return c= a+b;
 }
 console.log(add8(6,6));
+
+console.log("----6----");
+
+//arrow function with single parameter
+
+const square1= x=>x*x;
+console.log(square1(8));
+
+
+console.log("---normal function and arrow function ---");
+
+
+function normal(){
+    console.log("Normal");
+}
+normal();
+
+
+const arrow=()=>{
+    console.log("arrow function");
+}
+
+arrow();
 
 
 

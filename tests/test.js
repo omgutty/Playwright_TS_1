@@ -186,3 +186,141 @@ let fruit2=["Apple","Banana","Cherry","Mangor","Orange"];
 let removed2=fruit2.splice(-2,2);
 console.log(removed2);
 console.log(fruit2);
+
+
+//Test 6 
+
+let x = 10;
+if (x > 5) {
+  console.log("A");
+} else {
+  console.log("B");
+}
+
+let a = 5;
+let b = "5";
+if (a == b) {
+  console.log("Equal");
+} else {
+  console.log("Not Equal");
+}
+
+
+let num5 = 2;
+  switch(num5) {
+          case 1:
+              console.log("One");
+               break;
+          case 2:
+              console.log("Two");
+          case 3:
+              console.log("Three");
+               break;
+          default:
+              console.log("Default");
+      }
+
+
+      function test7() {
+  console.log("Hello");
+}
+test7();
+
+
+function add(a, b) {
+  console.log(a + b);
+}
+add(2, 3);
+
+
+
+function add(a, b) {
+  return a + b;
+}
+let result = add(5, 3);
+console.log(result);
+
+
+function check(num) {
+  if (num % 2 == 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
+console.log(check(7));
+
+if (false) {
+  console.log("A");
+} else {
+  console.log("B");
+}
+
+
+function test9() {
+  return 10;
+}
+console.log(test9());
+
+
+switch("2") {
+  case 2:
+    console.log("Number");
+    break;
+  case "2":
+    console.log("String");
+    break;
+}
+
+function show(a) {
+  return a * 2;
+}
+console.log(show());
+
+function validation(number){
+    if (number>0){
+        return console.log("POSITIVE");
+    }else if (number <0){
+        return console.log("negative");
+    }else if (number ==0){
+        return console.log("zero")
+    }
+}
+
+validation(0);
+
+function age(number){
+    if (number>=18){
+         return console.log("eligible ");
+        
+    }else {
+        return console.log("Not eligible ");
+    }
+}
+
+age(17);
+
+
+
+hello();
+
+ 
+
+function hello() {
+
+    console.log("Hello JS");
+
+}
+
+console.log(typeof function() {});
+
+(function() {
+
+    var a = 10;
+
+})();
+
+console.log(a);
+
+
+
