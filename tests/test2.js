@@ -34,3 +34,18 @@ console.log(sum(10,20));
 const square= num=>{return  num*num}
 
 console.log(square(6));
+
+
+
+function show({name}) { console.log(name); } 
+
+
+function sum(a,b){
+  return a+b;
+}
+
+function calculate(callback){
+  console.log(callback(2,3));
+}
+
+calculate(sum);

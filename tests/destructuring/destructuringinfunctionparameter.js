@@ -45,3 +45,5 @@ function readstudent2({name:newname,age:newage4, studies :{studentclass,school}}
     // console.log(newname,newage4,studies);// this is giving error. 
 }
 readstudent2(student);
+
+
