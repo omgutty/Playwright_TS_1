@@ -13,7 +13,7 @@ function connectingDB(callback){
     callback();
     },2000);
     
-}
+} 
 
 function fetchingthedata(callback){
     setTimeout (()=>{console.log("fetching the data")
