@@ -1,4 +1,4 @@
-const { resolve } = require("node:dns");
+//const { resolve } = require("node:dns");
 
 let prm= new Promise(()=>{
     console.log("this is executor function ");
@@ -22,11 +22,15 @@ let prm4= new Promise((resolve, reject)=>{
 
     let falg= true;
     console.log("this is executore function 4");
-    if (success){
+    if (falg){
         resolve("falg is true ");
     }else {
         reject(" falg is false");
     }
 });
 
-console.log(prm4); // if we are not calling prm4 , 
+console.log(prm4); // if we are not calling prm4 alos it will execute 
+
+prm4
+.then((p)=>console.log(p))
+.catch((f)=>console.log(f))
