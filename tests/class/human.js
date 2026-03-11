@@ -47,8 +47,11 @@ class animal{
     }
 
 }
+console.log(animal.jumping);// undefined
+console.log(animal);//[class animal]
 
 //calling the methods inside the class
+
 let dogobj= new animal("dog");
 dogobj.legs(4);
 dogobj.dogsound();
@@ -57,3 +60,6 @@ dogobj.jumping();
 
 //let rabitobj= new animal("Rabit");
 //rabitobj.legs(2);
+console.log(dogobj);
+console.log(animal); //[class animal]
+console.log(animal.jumping); //undefined
